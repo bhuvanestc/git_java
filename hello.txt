@@ -1,1 +1,2 @@
-hello 
+hello , welcome to lexicon java programming bootcamp. Enjoy learning. 
+Ready to explore progamming world!!!!!!
