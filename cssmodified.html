@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Demo</title>
+    <style>
+
+         * {
+            font-size: 30px;
+         }
+         
+
+        body {
+            background-color: #d182bd;
+            font-size : 30px;
+            text-align: left;
+            }
+       
+        header {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 3em; 
+            /* default value for 1em is 16px*/
+            text-align: center;
+            
+             text-decoration: underline;
+
+        }
+        
+
+        .container {
+            border: 12px solid #B22222;
+border-radius: 10px;
+margin-top: 15px;
+margin-bottom: 15px;
+            width: 50%;
+            
+        }
+
+        #child-item {
+            color: red;
+            font-family: 'Consolas';
+        }
+
+        li:hover {
+            color: green;
+        }
+   
+
+    </style>    
+
+</head>
+
+
+
+<body>
+
+    <header>CSS Selectors</header>
+    <div class="container">
+        <ul>
+            <li> Object Oriented Programming
+                <ul>
+                    <li id="child-item">Java</li>
+                </ul>
+            </li>
+            <li>Frame work
+                <ul>
+                    <li id="child-item">Spring boot</li>
+                </ul>
+            </li>
+            <li>Testing
+                <ul>
+                    <li id="child-item">Mockito</li>
+                </ul>
+            </li>
+        
+        </ul>
+    </div>
+    
+    
+</body>
+
+
+
+</html>
